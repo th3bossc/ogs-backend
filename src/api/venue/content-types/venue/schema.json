@@ -4,7 +4,8 @@
   "info": {
     "singularName": "venue",
     "pluralName": "venues",
-    "displayName": "Venue"
+    "displayName": "Venue",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,18 +16,24 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "events": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::event.event",
       "mappedBy": "venue"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

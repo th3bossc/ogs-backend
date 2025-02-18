@@ -36,6 +36,12 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "boolean"
     }
   }
 }

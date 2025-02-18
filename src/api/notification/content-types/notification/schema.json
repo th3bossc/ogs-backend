@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "singularName": "notification",
+    "pluralName": "notifications",
+    "displayName": "Notification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "details": {
+      "type": "text"
+    },
+    "time": {
+      "type": "datetime"
+    }
+  }
+}
