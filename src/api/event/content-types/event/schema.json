@@ -41,7 +41,8 @@
       "type": "string"
     },
     "priority": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }
